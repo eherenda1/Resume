@@ -17,7 +17,10 @@ body, html{
 
 body{
 
-    background-image: url("assets/novabg.jpg");
+   /*background-image: url("assets/josjedna.jpg");*/
+   background-color: rgb(208, 190, 209);
+   background-color: rgb(223, 223, 223);
+   
 
     background-repeat: no-repeat;
     background-size: 100% 100%;
