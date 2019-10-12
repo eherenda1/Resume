@@ -23,10 +23,11 @@ hr{
     width: 100%;
     
     text-align: center;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 .cvijece{
-    width: 70%;
+    
+    width: 65%;
 }
 .cvijece.lijevo{
  float:left;
@@ -45,12 +46,13 @@ hr{
 }
 .potpis{
     font-family: "Vladimir Script";
-    color: #4b372b;
+    color:#4b372b;
     font-size: 7vw;
+
      
 }
 .drugaboja{
-    background-color: rgb(230, 179, 187);
+    background-color: rgb(233, 201, 206);
 }
 
 .posao{
@@ -58,16 +60,11 @@ hr{
     color:#4b372b;
     font-size: 2vw;
     padding-top: 2px;
-    
-
-
 }
 .art{
-    
     width:5%;
 }
 .pic{
-    
     position:absolute;
     bottom: 0px;
     width: 25%;
@@ -79,6 +76,18 @@ hr{
  border-radius: 0%;
   width: 100%;
 }
+.misli{
+    margin-left: 35%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+   
+   
+}
+.oblacic{
+    width: 70%;
+    height: 50%;
+   
 
+}
 
 

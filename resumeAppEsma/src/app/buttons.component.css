@@ -1,89 +1,55 @@
-.boks{
- 
-  box-shadow: 5px 5px 5px 5px rgb(59, 49, 45);
-  width: 60%;
-  height: 60%;
- margin-left: 28%;
- margin-top: 3%;
- position: relative;
-}
-.dugmad{
-
-  position:absolute;
-  display: grid;
-  row-gap: 5%;
-  column-gap: 10%;
-  margin-left: 10%;
-  margin-top:3%;
-  width: 80%;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   
 }
-.nested{
-  column-gap: 5%;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-}
-button{
-  background-color: rgb(190, 178, 178);
-  font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
-  color:#4b372b;
-  font-size: 2vw;
-  padding-top: 2px;
-  border-radius: 100%;
-}
-
-.glow-on-hover {
-  outline: none;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 50%;
-  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0  rgb(211, 183, 172);
-}
-
-.glow-on-hover:before {
-  content: '';
-  background: linear-gradient(45deg, #ba98bd,  rgb(211, 183, 172));
-  position: absolute;
-  top: -2px;
-  left:-2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing 20s linear infinite;
-  opacity: 0;
-  transition: opacity .3s ease-in-out;
-  border-radius: 50%;
-}
-
-.glow-on-hover:active {
-  color: #4b372b;
-}
-
-.glow-on-hover:active:after {
-  background: transparent;
-}
-
-.glow-on-hover:hover:before {
-  opacity: 1;
-}
-
-.glow-on-hover:after {
-  z-index: -1;
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
+.about{
+  background:url('/assets/aboutIc.png') 0% 50% no-repeat no-repeat;
+ background-size: 30% 75%;
  
-  left: 0;
-  top: 0;
-  border-radius: 10px;
+}
+.education{
+  background:url('/assets/educationIc.png') 0% 50% no-repeat no-repeat;
+ background-size: 30% 75%;
+ 
 }
 
-@keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
+.skills{
+  background:url('/assets/skillsIc.png') 0% 50% no-repeat no-repeat;
+ background-size: 30% 75%;
+ 
+}
+.technical{
+  background:url('/assets/technicalIc.png') 0% 50% no-repeat no-repeat;
+ background-size: 20% 70%;
+ 
+}
+li {
+  float: left;
+  border: 1px solid #4b372b;
+}
+hr{
+  border: 1px solid #4b372b;
+}
+
+li a {
+  display: block;
+  font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+    color:#4b372b;
+    font-size: 1vw;
+  text-align: center;
+  padding: 14px 37px;
+  text-decoration: none;
+  
+
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(233, 201, 206);
+}
+
+.active {
+  background-color: rgb(233, 201, 206);
 }
