@@ -74,17 +74,17 @@ hr{
 .slika{
  /*box-shadow: 5px 5px 5px 2px #b68181;*/
  border-radius: 0%;
-  width: 100%;
+  width: 95%;
 }
 .misli{
     margin-left: 35%;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-bottom: 1%;
    
    
 }
-.oblacic{
-    width: 70%;
+.ekran{
+    width: 65%;
     height: 50%;
    
 
